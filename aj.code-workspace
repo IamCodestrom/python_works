@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"terminal.integrated.env.windows": {
+			"VIRTUAL_ENV": "${workspaceFolder}/.venv",
+			"PATH": "${workspaceFolder}/.venv/Scripts:${env:PATH}"
+		},
+		"dbt.perspectiveTheme": "Vintage",
+		"dbt.enableNewLineagePanel": true
+	}
+}
